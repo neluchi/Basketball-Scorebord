@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+@font-face {
+    font-family: sevensegments;
+    src: url(Seven\ Segment.ttf);
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+#score-board {
+    text-align: center;
+    width: 80%;
+    margin: 50px auto 50px auto;
+    background-color: rgb(9, 40, 58);
+    padding: 5%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    color: beige;
+    padding: 100px;
+    border: 6px solid lightgray;
+    border-radius: 30px;
+}
+
+.score {
+    margin: 0 0 20px 0;
+    font-family: sevensegments;
+    font-size: 6em;
+    color: rgb(212, 59, 59);
+    background: black;
+    border-radius: 8px;
+}
+
+.btn-score {
+    width: 50px;
+    height: 50px;
+    border: 2px solid beige;
+    border-radius: 6px;
+    background: none;
+    color: beige;
+    font-family: sevensegments;
+    font-size: 1em;
+    margin: 4px;
+}
+
+#btn-reset {
+    border: 2px solid beige;
+    border-radius: 6px;
+    background: none;
+    color: beige;
+    font-family: sevensegments;
+    font-size: 1em;
+    padding: 10px 15px;
+}
+
