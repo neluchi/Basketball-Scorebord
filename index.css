@@ -4,7 +4,7 @@ body {
 
 @font-face {
     font-family: sevensegments;
-    src: url(Seven\ Segment.ttf);
+    src: url(SevenSegment.ttf);
 }
 
 .container {
